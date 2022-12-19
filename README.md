@@ -32,7 +32,7 @@ Other than that, you're free to customize sites that you create with the templat
 
 ### Use RubyGems
 
-
+Dummy change
 
 Or install it yourself as:
 
