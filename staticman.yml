@@ -1,0 +1,24 @@
+title: Just the Docs Template
+description: A starter template for a Jeykll site using the Just the Docs theme!
+remote_theme: just-the-docs
+
+url: https://just-the-docs.github.io
+logo: "RednockSchool530x353.jpg"
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+comments:
+  allowedFields     : ['name', 'email', 'url', 'message']
+  branch            : "master"
+  commitMessage     : "New comment."
+  filename          : "comment-{@timestamp}"
+  format            : "yaml"
+  moderation        : true
+  path              : "src/_data/comments/{options.slug}"
+  requiredFields    : ['name', 'email', 'message']
+  transforms:
+    email           : md5
+  generatedFields:
+    date:
+      type          : "date"
+      options:
+        format      : "iso8601"
